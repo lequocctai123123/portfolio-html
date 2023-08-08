@@ -438,6 +438,8 @@ body.dark-theme{
   display: grid;
   place-items: center;
   transition: background-color .3s;
+  max-width: 40px;
+  max-height: 40px;
 }
 .home__social-link:hover{
   background-color: var(--black-color);
