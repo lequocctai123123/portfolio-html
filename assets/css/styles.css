@@ -427,8 +427,9 @@ body.dark-theme{
   top: 0;
   bottom: 0;
   margin: auto 0;
-  display: grid;
+  display: flex;
   row-gap: 1rem;
+  flex-direction: column;
 }
 .home__social-link{
   background-color: var(--black-color-light);
