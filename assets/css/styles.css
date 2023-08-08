@@ -428,7 +428,6 @@ body.dark-theme{
   bottom: 0;
   margin: auto 0;
   display: flex;
-  row-gap: 1rem;
   flex-direction: column;
 }
 .home__social-link{
@@ -441,6 +440,7 @@ body.dark-theme{
   transition: background-color .3s;
   max-width: 40px;
   max-height: 40px;
+  margin-bottom: 10px;
 }
 .home__social-link:hover{
   background-color: var(--black-color);
