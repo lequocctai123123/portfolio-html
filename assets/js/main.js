@@ -82,7 +82,7 @@ const iconTheme = 'ri-sun-line'
 const selectedTheme = localStorage.getItem('selected-theme')
 const selectedIcon = localStorage.getItem('selected-icon')
 
-const getCurrentTheme = () => document.body.classList.contains(darkTheme)?'light':'dark'
+const getCurrentTheme = () => document.body.classList.contains(darkTheme)?'dark':'light'
 const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'ri-sun-line' : 'bx bx-moon'
 
 if(selectedTheme) {
